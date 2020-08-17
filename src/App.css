@@ -1,0 +1,153 @@
+/* Variables */
+:root {
+  --main-color: #ed502e;
+  --dark: #000;
+  --light-dark: #111;
+}
+
+body {
+  height: 5000px;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+ul {
+  list-style: none;
+}
+
+.side-nav-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100%;
+  background-color: var(--main-color);
+  z-index: 9999;
+}
+
+.side-nav-wrapper .brand-logo {
+  width: 100%;
+}
+.side-nav-wrapper .brand-logo img {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: 30px auto;
+  border-radius: 50%;
+}
+
+.side-nav-wrapper a {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  transition: 0.4s ease-in-out;
+}
+
+.side-nav-wrapper a:hover {
+  color: var(--main-color);
+}
+
+.side-nav-wrapper a span {
+  margin-left: 10px;
+}
+
+/*  Start earning statistics wrapper  */
+.earning-statistics-wrapper {
+  margin: 30px 0;
+}
+.earning-statistics-wrapper .cart-item {
+}
+
+.earning-statistics-wrapper .cart-item .cart-title {
+  border: 1px solid green;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.earning-statistics-wrapper .cart-item .cart-title span:last-of-type {
+  background: #ed502e;
+  padding: 5px;
+  color: #fff;
+  border-radius: 3px;
+}
+
+/*  End earning statistics wrapper  */
+
+/*  Start latest orders */
+.latest-orders-wrapper {
+  margin: 40px 0;
+}
+
+.latest-orders-wrapper .menu-cart-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.latest-orders-wrapper .menu-cart-title span:last-child {
+  color: #fff;
+  background: var(--main-color);
+  padding: 5px 10px;
+  font-weight: 500;
+  border-radius: 3px;
+}
+
+.latest-orders-wrapper .menu-cart-footer {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/*  End latest orders */
+
+/* restaurant-rating-wrapper */
+.restaurant-rating-wrapper {
+  margin: 30px 0;
+}
+/* restaurant-rating-wrapper */
+
+/* Spread our Wrapper */
+.spread-our-wrapper {
+  margin: 30px 0;
+}
+
+.spread-our-wrapper .timeline-wrapper {
+  /* border: 1px solid red; */
+}
+
+.spread-our-wrapper .timeline-wrapper .column-title {
+  color: var(--dark);
+  font-weight: 500;
+  display: block;
+  margin-bottom: 10px;
+}
+.spread-our-wrapper .timeline-wrapper ul li {
+  display: flex;
+  align-items: center;
+}
+.spread-our-wrapper .timeline-wrapper ul li::before {
+  content: "";
+  display: inline-block;
+  background-color: var(--main-color);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.spread-our-wrapper .timeline-wrapper ul li a span {
+  color: #6c757d;
+  font-size: 12px;
+}
+.spread-our-wrapper .timeline-wrapper ul li a h6 {
+  color: var(--light-dark);
+  transition: 0.4s ease-in-out;
+}
+.spread-our-wrapper .timeline-wrapper ul li a h6:hover {
+  color: var(--main-color);
+}
+/* Spread our Wrapper */

@@ -1,6 +1,6 @@
 import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
-import { FaRegCopy, FaHome, FaCalendarAlt, FaMapMarkerAlt } from "react-icons/fa";
+import { FaHome, FaCalendarAlt, FaMapMarkerAlt } from "react-icons/fa";
 import { AiOutlineDashboard } from "react-icons/ai";
 
 import Logo from "../assets/images/logo.jpg";
