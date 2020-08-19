@@ -1,6 +1,30 @@
 body {
+  background-color: #edf0f7;
   height: 5000px;
+  overflow-x: hidden;
+}
+
+// Reset some elements
+a {
+  text-decoration: none;
+  color: #000;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+// Fusion charts
+svg > g[class^="raphael-group-"] > text {
+  display: none !important;
+}
+
+// Custom classes
+.bg-white {
+  background-color: #fff !important;
 }
 
 @import "./variables.scss";
 @import "./components/SideMenu.scss";
+@import "./components/MasterDashboardView.scss";
+@import "./components/ReportsComponent.scss";

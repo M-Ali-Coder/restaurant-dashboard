@@ -4,7 +4,8 @@
   left: 0;
   width: 300px;
   height: 100%;
-  background-color: #000;
+  background-color: $mainColor;
+  z-index: 9999;
 
   .brand-logo {
     width: 100%;
@@ -26,10 +27,6 @@
 
     span {
       margin-left: 10px;
-    }
-
-    &:hover {
-      color: $mainColor;
     }
   }
 }

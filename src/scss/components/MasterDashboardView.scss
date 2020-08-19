@@ -1,0 +1,17 @@
+.master-dashboard-view {
+  .dashboard-view-item {
+    background-color: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+
+    svg {
+      font-size: 40px;
+    }
+
+    .about-order {
+      .order-count {
+        font-size: 40px;
+      }
+    }
+  }
+}
