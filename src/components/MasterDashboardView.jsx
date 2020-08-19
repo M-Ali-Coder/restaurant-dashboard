@@ -7,8 +7,8 @@ const MasterDashboardView = () => {
     <>
       <div className="master-dashboard-view mt-5 mb-5">
         <Row>
-          <Col>
-            <div className="dashboard-view-item d-flex p-4 align-items-center bg-white">
+          <Col sm={12} md={12} lg={4}>
+            <div className="dashboard-view-item d-flex p-4 align-items-center bg-white mb-md-3 mb-sm-3 ">
               <div className="mr-4">
                 <FcCheckmark />
               </div>
@@ -18,8 +18,8 @@ const MasterDashboardView = () => {
               </div>
             </div>
           </Col>
-          <Col>
-            <div className="dashboard-view-item d-flex p-4 align-items-center bg-white">
+          <Col sm={12} md={12} lg={4}>
+            <div className="dashboard-view-item d-flex p-4 align-items-center bg-white mb-md-3 mb-sm-3 ">
               <div className="mr-4">
                 <FcDisapprove />
               </div>
@@ -29,8 +29,8 @@ const MasterDashboardView = () => {
               </div>
             </div>
           </Col>
-          <Col>
-            <div className="dashboard-view-item d-flex p-4 align-items-center bg-white">
+          <Col sm={12} md={12} lg={4}>
+            <div className="dashboard-view-item d-flex p-4 align-items-center bg-white mb-md-3 mb-sm-3 ">
               <div className="mr-4">
                 <FcLock />
               </div>

@@ -8,7 +8,7 @@ import BusinessSummary from "./BusinessSummary";
 const HomePage = () => {
   return (
     <div>
-      <Container fluid>
+      <Container>
         <HomePageHeader />
         <MasterDashboardView />
         <BusinessSummary />

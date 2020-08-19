@@ -1,6 +1,6 @@
 body {
   background-color: #edf0f7;
-  height: 5000px;
+  // height: 5000px;
   overflow-x: hidden;
 }
 
@@ -11,6 +11,17 @@ a {
 
   &:hover {
     text-decoration: none;
+  }
+}
+
+.side-menu-wrapper {
+  height: 100%;
+  // display: none;
+}
+
+@media screen and(max-width: 552px) {
+  .side-menu-wrapper {
+    display: none !important;
   }
 }
 
@@ -28,3 +39,4 @@ svg > g[class^="raphael-group-"] > text {
 @import "./components/SideMenu.scss";
 @import "./components/MasterDashboardView.scss";
 @import "./components/ReportsComponent.scss";
+@import "./components/MenuManagement.scss";

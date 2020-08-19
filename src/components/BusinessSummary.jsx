@@ -292,25 +292,32 @@ const BusinessSummary = () => {
       <h6 className="mb-3">Business Summary</h6>
       <div>
         <Row>
-          <Col md={6} sm={1} lg={6}>
-            <ChartItem config={firstChartConfig} />
+          <Col md={6} sm={12} lg={6}>
+            <div className="mb-sm-3">
+              <ChartItem config={firstChartConfig} />
+            </div>
           </Col>
-          <Col md={6} sm={1} lg={6}>
-            <ChartItem config={secondChartConfig} />
+          <Col md={6} sm={12} lg={6}>
+            <div className="mb-sm-3">
+              <ChartItem config={secondChartConfig} />
+            </div>
           </Col>
         </Row>
       </div>
       <div className="mt-4">
         <Row>
-          <Col md={6} sm={1} lg={6}>
-            <ChartItem config={fourthChartConfig} />
+          <Col md={6} sm={12} lg={6}>
+            <div className="mb-sm-3">
+              <ChartItem config={fourthChartConfig} />
+            </div>
           </Col>
-          <Col md={6} sm={1} lg={6}>
-            <ChartItem config={thirdChartConfig} />
+          <Col md={6} sm={12} lg={6}>
+            <div className="mb-sm-3">
+              <ChartItem config={thirdChartConfig} />
+            </div>
           </Col>
         </Row>
       </div>
-      <hr />
     </div>
   );
 };
