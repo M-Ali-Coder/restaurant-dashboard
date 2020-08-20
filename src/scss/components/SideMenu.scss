@@ -6,8 +6,10 @@
   height: 100%;
   background-color: $mainColor;
   z-index: 9999;
+  // display: none;
 
   .brand-logo {
+    margin-top: 40px;
     width: 100%;
 
     img {
@@ -34,10 +36,34 @@
       margin-left: 10px;
     }
   }
+
+  .close-side-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    background-color: #000;
+    padding: 10px;
+
+    svg {
+      color: #fff;
+      font-size: 30px;
+    }
+  }
 }
 
-@media screen and(max-width: 767px) {
+@media screen and(min-width: 991px) {
   .side-menu-wrapper {
-    display: none !important;
+    .close-side-menu {
+      display: none !important;
+    }
+  }
+}
+
+@media screen and(max-width: 992px) {
+  .side-menu-wrapper {
+    .close-side-menu {
+      display: block !important;
+    }
   }
 }

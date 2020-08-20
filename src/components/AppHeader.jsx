@@ -1,10 +1,14 @@
 import React from "react";
 import { MdNotificationsActive } from "react-icons/md";
+import { MdMenu } from "react-icons/md";
 import { Dropdown } from "react-bootstrap";
 
-const AppNotifications = () => {
+const AppHeader = ({ toggleSideMenu }) => {
   return (
-    <div className="app-notifigations-wrapper">
+    <div className="app-header-wrapper d-flex justify-content-between align-items-center">
+      <div className="toggle-side-menu" onClick={() => toggleSideMenu()}>
+        <MdMenu />
+      </div>
       <Dropdown>
         <Dropdown.Toggle variant="primary" id="dropdown-basic">
           <MdNotificationsActive />
@@ -18,4 +22,4 @@ const AppNotifications = () => {
   );
 };
 
-export default AppNotifications;
+export default AppHeader;

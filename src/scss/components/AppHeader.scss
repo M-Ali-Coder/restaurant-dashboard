@@ -1,11 +1,11 @@
-.app-notifigations-wrapper {
+.app-header-wrapper {
   top: 30px;
   right: 30px;
   color: #fff;
   display: flex;
   justify-content: flex-end;
   margin-top: 30px;
-  padding-right: 20px;
+  padding: 10px 20px;
 
   svg {
     font-size: 30px;
@@ -21,5 +21,10 @@
       background-color: $mainColor !important;
       border: none;
     }
+  }
+
+  .toggle-side-menu {
+    color: $mainColor;
+    cursor: pointer;
   }
 }
