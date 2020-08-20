@@ -7,13 +7,11 @@ import BusinessSummary from "./BusinessSummary";
 
 const HomePage = () => {
   return (
-    <div>
-      <Container>
-        <HomePageHeader />
-        <MasterDashboardView />
-        <BusinessSummary />
-      </Container>
-    </div>
+    <Container>
+      <HomePageHeader />
+      <MasterDashboardView />
+      <BusinessSummary />
+    </Container>
   );
 };
 

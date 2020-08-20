@@ -19,11 +19,16 @@
     }
   }
 
+  .app-navigtor-wrapper {
+    padding: 0 30px;
+  }
+
   a {
     color: #fff;
     display: flex;
     align-items: center;
     transition: all 0.4s ease-in-out;
+    margin-bottom: 15px;
 
     span {
       margin-left: 10px;

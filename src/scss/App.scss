@@ -19,7 +19,7 @@ a {
   // display: none;
 }
 
-@media screen and(max-width: 552px) {
+@media screen and(max-width: 767px) {
   .side-menu-wrapper {
     display: none !important;
   }
@@ -40,3 +40,4 @@ svg > g[class^="raphael-group-"] > text {
 @import "./components/MasterDashboardView.scss";
 @import "./components/ReportsComponent.scss";
 @import "./components/MenuManagement.scss";
+@import "./components/AppNotifigations.scss";
