@@ -304,7 +304,7 @@ const BusinessSummary = () => {
           </Col>
         </Row>
       </div>
-      <div className="mt-4">
+      <div className="mt-2">
         <Row>
           <Col md={6} sm={12} lg={6}>
             <div className="mb-sm-3">

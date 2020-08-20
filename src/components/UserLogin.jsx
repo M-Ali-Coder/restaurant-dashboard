@@ -1,24 +1,27 @@
 import React from "react";
-import { Form, Button, Container } from "react-bootstrap";
 
 const UserLogin = () => {
   return (
-    <Form>
-      <Container>
-        <Form.Group controlId="formBasicEmail">
-          <Form.Label>Email address</Form.Label>
-          <Form.Control type="email" placeholder="Enter email" />
-        </Form.Group>
-
-        <Form.Group controlId="formBasicPassword">
-          <Form.Label>Password</Form.Label>
-          <Form.Control type="password" placeholder="Password" />
-        </Form.Group>
-        <Button variant="primary" type="submit">
+    <div className="login-box">
+      <h2>Login</h2>
+      <form autoComplete="off">
+        <div className="user-box">
+          <input type="email" name="email" required />
+          <label>Email</label>
+        </div>
+        <div className="user-box">
+          <input type="password" name="" required />
+          <label>Password</label>
+        </div>
+        <button to="#">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
           Login
-        </Button>
-      </Container>
-    </Form>
+        </button>
+      </form>
+    </div>
   );
 };
 

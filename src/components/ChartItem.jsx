@@ -9,7 +9,7 @@ ReactFC.fcRoot(FusionCharts, Column2D, FusionTheme);
 
 const ChartItem = ({ config }) => {
   return (
-    <div>
+    <div className="mb-3">
       <ReactFC {...config} />
     </div>
   );

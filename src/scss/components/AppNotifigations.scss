@@ -4,24 +4,8 @@
   color: #fff;
   display: flex;
   justify-content: flex-end;
-  // border: 1px solid red;
   margin-top: 30px;
-  cursor: pointer;
   padding-right: 20px;
-
-  span {
-    // position: absolute;
-    top: -17px;
-    right: -8px;
-    display: block;
-    width: 20px;
-    background: red;
-    height: 20px;
-    text-align: center;
-    line-height: 20px;
-    color: #fff;
-    border-radius: 50%;
-  }
 
   svg {
     font-size: 30px;
@@ -30,5 +14,12 @@
 
   .dropdown-toggle::after {
     display: none !important;
+  }
+
+  .dropdown {
+    button {
+      background-color: $mainColor !important;
+      border: none;
+    }
   }
 }

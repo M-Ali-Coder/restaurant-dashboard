@@ -1,4 +1,4 @@
-.side-nav-wrapper {
+.side-menu-wrapper {
   position: fixed;
   top: 0;
   left: 0;
@@ -33,5 +33,11 @@
     span {
       margin-left: 10px;
     }
+  }
+}
+
+@media screen and(max-width: 767px) {
+  .side-menu-wrapper {
+    display: none !important;
   }
 }

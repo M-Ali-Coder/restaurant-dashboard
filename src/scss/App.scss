@@ -19,12 +19,6 @@ a {
   // display: none;
 }
 
-@media screen and(max-width: 767px) {
-  .side-menu-wrapper {
-    display: none !important;
-  }
-}
-
 // Fusion charts
 svg > g[class^="raphael-group-"] > text {
   display: none !important;
@@ -41,3 +35,4 @@ svg > g[class^="raphael-group-"] > text {
 @import "./components/ReportsComponent.scss";
 @import "./components/MenuManagement.scss";
 @import "./components/AppNotifigations.scss";
+@import "./components/UserLogin.scss";

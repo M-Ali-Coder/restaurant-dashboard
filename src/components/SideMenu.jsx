@@ -1,15 +1,15 @@
 import React from "react";
 import Logo from "../assets/images/logo.jpg";
 
-import { FaCalendarAlt, FaMapMarkerAlt, FaUserAlt } from "react-icons/fa";
-import { MdRestaurantMenu } from "react-icons/md";
+import { FaCalendarAlt, FaMapMarkerAlt, FaUserAlt, FaBuilding } from "react-icons/fa";
+import { MdRestaurantMenu, MdAccessTime } from "react-icons/md";
 import { AiOutlineDashboard } from "react-icons/ai";
 
 import { Link } from "react-router-dom";
 
 const SideMenu = () => {
   return (
-    <div className="side-nav-wrapper ">
+    <div className="side-menu-wrapper">
       {/* Navabar */}
       <div className="brand-logo">
         <Link to="/">
@@ -43,13 +43,13 @@ const SideMenu = () => {
         </Link>
         <Link to="/">
           <div className="side-menu-list-item">
-            <AiOutlineDashboard />
+            <MdAccessTime />
             <span>اوقات الافتتاح </span>
           </div>
         </Link>
         <Link to="/">
           <div className="side-menu-list-item">
-            <AiOutlineDashboard />
+            <FaBuilding />
             <span>حالة الفرع</span>
           </div>
         </Link>
