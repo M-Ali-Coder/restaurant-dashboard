@@ -8,6 +8,7 @@ import UserLogin from "./components/UserLogin";
 import SideMenu from "./components/SideMenu";
 import ReportsPage from "./components/ReportsPage";
 import { Row, Col } from "react-bootstrap";
+import TestRoute from "./components/TestRoute";
 
 class App extends React.Component {
   constructor(props) {
@@ -38,8 +39,9 @@ class App extends React.Component {
           <Col md={12} sm={12} lg={9}>
             <Switch>
               <Route exact path="/" component={HomePage} />
-              <Route exact path="/reports" component={ReportsPage} />
-              <Route exact path="/user/login" component={UserLogin} />
+              <Route path="/reports" component={ReportsPage} />
+              <Route path="/user/login" component={UserLogin} />
+              <Route path="/test" component={TestRoute} />
             </Switch>
           </Col>
         </Row>
