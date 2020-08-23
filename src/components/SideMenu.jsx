@@ -55,6 +55,12 @@ const SideMenu = ({ showSideMenu, toggleSideMenu }) => {
                 <span>حالة الفرع</span>
               </div>
             </Link>
+            <Link to="/test">
+              <div className="side-menu-list-item">
+                <FaBuilding />
+                <span>TESTING</span>
+              </div>
+            </Link>
             <Link to="/user/login">
               <div className="side-menu-list-item mt-3">
                 <FaUserAlt />
