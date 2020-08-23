@@ -2,7 +2,7 @@ import React from "react";
 import QRCode from "qrcode.react";
 class TestRoute extends React.Component {
   state = {
-    value: "http://picturesofpeoplescanningqrcodes.tumblr.com/",
+    value: "",
     size: 128,
     fgColor: "#000000",
     bgColor: "#ffffff",
@@ -47,11 +47,12 @@ class TestRoute extends React.Component {
           <label>
             Value:
             <br />
-            <textarea
-              rows="6"
-              cols="80"
+            <input
+              type="text"
+              placeholder="Restaurant name"
               onChange={(e) => this.setState({ value: e.target.value })}
               value={this.state.value}
+              style={{ padding: "10px", width: "300px" }}
             />
           </label>
         </div>
