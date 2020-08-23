@@ -9,6 +9,7 @@ import SideMenu from "./components/SideMenu";
 import ReportsPage from "./components/ReportsPage";
 import { Row, Col } from "react-bootstrap";
 import TestRoute from "./components/TestRoute";
+import UserQRCode from "./components/UserQRCode";
 
 class App extends React.Component {
   constructor(props) {
@@ -41,6 +42,7 @@ class App extends React.Component {
               <Route exact path="/" component={HomePage} />
               <Route path="/reports" component={ReportsPage} />
               <Route path="/user/login" component={UserLogin} />
+              <Route path="/user/qr-code" component={UserQRCode} />
               <Route path="/test" component={TestRoute} />
             </Switch>
           </Col>

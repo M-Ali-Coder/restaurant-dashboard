@@ -55,16 +55,22 @@ const SideMenu = ({ showSideMenu, toggleSideMenu }) => {
                 <span>حالة الفرع</span>
               </div>
             </Link>
-            <Link to="/test">
+            <Link to="/user/qr-code">
               <div className="side-menu-list-item">
                 <FaBuilding />
-                <span>TESTING</span>
+                <span>QR Code الحصول على</span>
               </div>
             </Link>
             <Link to="/user/login">
               <div className="side-menu-list-item mt-3">
                 <FaUserAlt />
                 <span>تسجيل الدخول</span>
+              </div>
+            </Link>
+            <Link to="/test">
+              <div className="side-menu-list-item">
+                <FaBuilding />
+                <span>TESTING</span>
               </div>
             </Link>
           </div>

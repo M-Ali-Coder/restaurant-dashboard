@@ -1,9 +1,10 @@
 import React from "react";
 import QRCode from "qrcode.react";
-class TestRoute extends React.Component {
+
+class UserQRCode extends React.Component {
   state = {
-    value: "",
-    size: 328,
+    value: "Hello world",
+    size: 400,
     fgColor: "#000000",
     bgColor: "#ffffff",
     level: "L",
@@ -18,10 +19,10 @@ class TestRoute extends React.Component {
     imageExcavate: true,
     centerImage: true,
   };
-
   render() {
     return (
-      <div className="d-flex justify-content-center">
+      <div className="d-flex flex-column align-items-center">
+        <h1 className="mb-5 text-center">افحص الصورة باستخدام الموييل الخاص بك</h1>
         <QRCode
           value={this.state.value}
           size={this.state.size}
@@ -48,4 +49,4 @@ class TestRoute extends React.Component {
   }
 }
 
-export default TestRoute;
+export default UserQRCode;
